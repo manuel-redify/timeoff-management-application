@@ -2,14 +2,6 @@
   "allow_create_new_accounts": true,
   "send_emails": true,
   "application_sender_email": "mailguntest@sandbox400f429055f14aedab346afaf3cc616b.mailgun.org",
-  "email_transporter": {
-    "host": "smtp.mailgun.org",
-    "port": 587,
-    "auth": {
-      "user": "mailguntest@sandbox400f429055f14aedab346afaf3cc616b.mailgun.org",
-      "pass": "9f6f64565fb1252493783821a228b87b-96164d60-52a18e57"
-    }
-  },
   "sessionStore": {
     "useRedis": false,
     "redisConnectionConfiguration": {
@@ -18,7 +10,6 @@
     }
   },
   "ga_analytics_on": false,
-  "crypto_secret": "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_",
   "application_domain": "http://app.timeoff.management",
   "promotion_website_domain": "http://timeoff.management",
   "locale_code_for_sorting": "en",

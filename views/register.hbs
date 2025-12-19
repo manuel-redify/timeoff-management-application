@@ -1,4 +1,3 @@
-
 {{> header }}
 
 <h1>New company</h1>
@@ -52,7 +51,8 @@
       <div class="form-group">
         <label for="confirm_pass_inp" class="col-md-2 control-label">Confirm Password</label>
         <div class="col-md-6">
-          <input class="form-control" id="confirm_pass_inp" type="password" placeholder="Password" name="password_confirmed" required>
+          <input class="form-control" id="confirm_pass_inp" type="password" placeholder="Password"
+            name="password_confirmed" required>
         </div>
       </div>
 
@@ -61,7 +61,7 @@
         <div class="col-md-6">
           <select class="form-control" id="country_inp" placeholder="Country name" name="country">
             {{#each countries}}
-            <option value="{{@key}}" {{#if this.default }} selected="selected" {{/if}}>{{@key}}: {{this.name}}</option>
+            <option value="{{this.code}}" {{#if this.default }} selected="selected" {{/if}}>{{this.name}}</option>
             {{/each}}
           </select>
         </div>
@@ -72,7 +72,8 @@
         <div class="col-md-6">
           <select class="form-control" id="timezone_inp" placeholder="Time zone" name="timezone">
             {{#each timezones_available}}
-            <option value="{{this}}" {{#if_equal this 'Europe/London' }} selected="selected" {{/if_equal}}>{{this}}</option>
+            <option value="{{this}}" {{#if_equal this 'Europe/London' }} selected="selected" {{/if_equal}}>{{this}}
+            </option>
             {{/each}}
           </select>
         </div>

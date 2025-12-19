@@ -222,7 +222,7 @@
       ]
     },
     "AE": {
-      "name": "دولة الإمارات العربية المتحدة",
+      "name": "United Arab Emirates",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -637,7 +637,7 @@
       ]
     },
     "AL": {
-      "name": "Shqipëri",
+      "name": "Albania",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -858,7 +858,7 @@
       ]
     },
     "AM": {
-      "name": "Հայաստան",
+      "name": "Armenia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -1550,7 +1550,7 @@
       ]
     },
     "AT": {
-      "name": "Österreich",
+      "name": "Austria",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -2017,7 +2017,7 @@
       ]
     },
     "AX": {
-      "name": "Landskapet Åland",
+      "name": "Åland Islands",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -2202,7 +2202,7 @@
       ]
     },
     "AZ": {
-      "name": "Azərbaycan Respublikası",
+      "name": "Azerbaijan",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -2467,7 +2467,7 @@
       ]
     },
     "BA": {
-      "name": "Bosna i Hercegovina",
+      "name": "Bosnia & Herzegovina",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -2889,7 +2889,7 @@
       ]
     },
     "BD": {
-      "name": "গণপ্রজাতন্ত্রী বাংলাদেশ",
+      "name": "Bangladesh",
       "bank_holidays": [
         {
           "date": "2023-02-21",
@@ -3074,7 +3074,7 @@
       ]
     },
     "BE": {
-      "name": "Belgique",
+      "name": "Belgium",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -3420,7 +3420,7 @@
       ]
     },
     "BG": {
-      "name": "България",
+      "name": "Bulgaria",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -3569,7 +3569,7 @@
       ]
     },
     "BH": {
-      "name": "مملكة البحرين",
+      "name": "Bahrain",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -3694,7 +3694,7 @@
       ]
     },
     "BI": {
-      "name": "République du Burundi",
+      "name": "Burundi",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -3855,7 +3855,7 @@
       ]
     },
     "BJ": {
-      "name": "République du Bénin",
+      "name": "Benin",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -4310,7 +4310,7 @@
       ]
     },
     "BN": {
-      "name": "Negara Brunei Darussalam",
+      "name": "Brunei",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -4608,7 +4608,7 @@
       ]
     },
     "BQ": {
-      "name": "Caribisch Nederland",
+      "name": "Caribbean Netherlands",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -4721,7 +4721,7 @@
       ]
     },
     "BR": {
-      "name": "Brasil",
+      "name": "Brazil",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -5655,7 +5655,7 @@
       ]
     },
     "CD": {
-      "name": "République démocratique du Congo",
+      "name": "Congo - Kinshasa",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -5776,7 +5776,7 @@
       ]
     },
     "CF": {
-      "name": "République centrafricaine",
+      "name": "Central African Republic",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -5949,7 +5949,7 @@
       ]
     },
     "CG": {
-      "name": "République du Congo",
+      "name": "Congo - Brazzaville",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -6086,7 +6086,7 @@
       ]
     },
     "CH": {
-      "name": "Schweiz",
+      "name": "Switzerland",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -6223,7 +6223,7 @@
       ]
     },
     "CI": {
-      "name": "République de Côte d'Ivoire",
+      "name": "Côte d’Ivoire",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -6750,7 +6750,7 @@
       ]
     },
     "CM": {
-      "name": "Cameroun",
+      "name": "Cameroon",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -6875,7 +6875,7 @@
       ]
     },
     "CN": {
-      "name": "中华人民共和国",
+      "name": "China",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -7543,7 +7543,7 @@
       ]
     },
     "CV": {
-      "name": "República de Cabo Verde",
+      "name": "Cape Verde",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -7990,7 +7990,7 @@
       ]
     },
     "CY": {
-      "name": "Κύπρος",
+      "name": "Cyprus",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -8175,7 +8175,7 @@
       ]
     },
     "CZ": {
-      "name": "Česká republika",
+      "name": "Czechia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -8336,7 +8336,7 @@
       ]
     },
     "DE": {
-      "name": "Deutschland",
+      "name": "Germany",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -8473,7 +8473,7 @@
       ]
     },
     "DJ": {
-      "name": "République de Djibouti",
+      "name": "Djibouti",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -8598,7 +8598,7 @@
       ]
     },
     "DK": {
-      "name": "Danmark",
+      "name": "Denmark",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -8888,7 +8888,7 @@
       ]
     },
     "DO": {
-      "name": "República Dominicana",
+      "name": "Dominican Republic",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -9037,7 +9037,7 @@
       ]
     },
     "DZ": {
-      "name": "الجمهورية الجزائرية الديمقراطية الشعبية",
+      "name": "Algeria",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -9311,7 +9311,7 @@
       ]
     },
     "EE": {
-      "name": "Eesti",
+      "name": "Estonia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -9460,7 +9460,7 @@
       ]
     },
     "EG": {
-      "name": "جمهورية مصر العربية",
+      "name": "Egypt",
       "bank_holidays": [
         {
           "date": "2023-01-07",
@@ -9621,7 +9621,7 @@
       ]
     },
     "EH": {
-      "name": "الجمهورية العربية الصحراوية الديمقراطية",
+      "name": "Western Sahara",
       "bank_holidays": [
         {
           "date": "2023-02-27",
@@ -9943,7 +9943,7 @@
       ]
     },
     "ES": {
-      "name": "España",
+      "name": "Spain",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -10068,7 +10068,7 @@
       ]
     },
     "ET": {
-      "name": "ኢትዮጵያ",
+      "name": "Ethiopia",
       "bank_holidays": [
         {
           "date": "2023-01-06",
@@ -10229,7 +10229,7 @@
       ]
     },
     "FI": {
-      "name": "Suomi",
+      "name": "Finland",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -10426,7 +10426,7 @@
       ]
     },
     "FJ": {
-      "name": "Matanitu Tugalala o Viti",
+      "name": "Fiji",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -10555,7 +10555,7 @@
       ]
     },
     "FO": {
-      "name": "Føroyar",
+      "name": "Faroe Islands",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -11115,6 +11115,38 @@
         {
           "date": "2025-12-26",
           "name": "Boxing Day"
+        },
+        {
+          "date": "2026-01-01",
+          "name": "New Year's Day"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Easter Monday"
+        },
+        {
+          "date": "2026-05-04",
+          "name": "Early May Bank Holiday"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "Spring Bank Holiday"
+        },
+        {
+          "date": "2026-08-31",
+          "name": "Summer Bank Holiday"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day"
+        },
+        {
+          "date": "2026-12-28",
+          "name": "Boxing (Substitute)"
         }
       ]
     },
@@ -11280,7 +11312,7 @@
       ]
     },
     "GE": {
-      "name": "საქართველო",
+      "name": "Georgia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -11489,7 +11521,7 @@
       ]
     },
     "GF": {
-      "name": "Guyane",
+      "name": "French Guiana",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -12097,7 +12129,7 @@
       ]
     },
     "GL": {
-      "name": "Kalaallit Nunaat",
+      "name": "Greenland",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -12270,7 +12302,7 @@
       ]
     },
     "GM": {
-      "name": "The Gambia",
+      "name": "Gambia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -12443,7 +12475,7 @@
       ]
     },
     "GN": {
-      "name": "Guinée",
+      "name": "Guinea",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -12765,7 +12797,7 @@
       ]
     },
     "GQ": {
-      "name": "República de Guinea Ecuatorial",
+      "name": "Equatorial Guinea",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -12906,7 +12938,7 @@
       ]
     },
     "GR": {
-      "name": "Ελλάδα",
+      "name": "Greece",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -13397,7 +13429,7 @@
       ]
     },
     "GW": {
-      "name": "Guiné-Bissau",
+      "name": "Guinea-Bissau",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -13703,7 +13735,7 @@
       ]
     },
     "HK": {
-      "name": "香港",
+      "name": "Hong Kong SAR China",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -14061,7 +14093,7 @@
       ]
     },
     "HR": {
-      "name": "Hrvatska",
+      "name": "Croatia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -14234,7 +14266,7 @@
       ]
     },
     "HT": {
-      "name": "Haïti",
+      "name": "Haiti",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -14431,7 +14463,7 @@
       ]
     },
     "HU": {
-      "name": "Magyarország",
+      "name": "Hungary",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -15121,7 +15153,7 @@
           "date": "2025-09-23",
           "name": "Rosh Hashanah"
         },
-       {
+        {
           "date": "2025-09-24",
           "name": "Rosh Hashanah"
         },
@@ -15269,7 +15301,7 @@
       ]
     },
     "IS": {
-      "name": "Ísland",
+      "name": "Iceland",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -15466,7 +15498,7 @@
       ]
     },
     "IT": {
-      "name": "Italia",
+      "name": "Italy",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -15610,6 +15642,54 @@
         },
         {
           "date": "2025-12-26",
+          "name": "Santo Stefano"
+        },
+        {
+          "date": "2026-01-01",
+          "name": "Capodanno"
+        },
+        {
+          "date": "2026-01-06",
+          "name": "Epifania"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "Pasqua"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Lunedì dell'Angelo"
+        },
+        {
+          "date": "2026-04-25",
+          "name": "Festa della Liberazione"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Festa del Lavoro"
+        },
+        {
+          "date": "2026-06-02",
+          "name": "Festa della Repubblica"
+        },
+        {
+          "date": "2026-08-15",
+          "name": "Assunzione (Ferragosto)"
+        },
+        {
+          "date": "2026-11-01",
+          "name": "Ognissanti"
+        },
+        {
+          "date": "2026-12-08",
+          "name": "Immacolata Concezione"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Natale"
+        },
+        {
+          "date": "2026-12-26",
           "name": "Santo Stefano"
         }
       ]
@@ -15865,7 +15945,7 @@
       ]
     },
     "JP": {
-      "name": "日本",
+      "name": "Japan",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -16307,7 +16387,7 @@
       ]
     },
     "KM": {
-      "name": "Union des Comores",
+      "name": "Comoros",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -16581,7 +16661,7 @@
       ]
     },
     "KR": {
-      "name": "대한민국",
+      "name": "South Korea",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -17020,7 +17100,7 @@
       ]
     },
     "LI": {
-      "name": "Lichtenstein",
+      "name": "Liechtenstein",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -17378,7 +17458,7 @@
       ]
     },
     "LS": {
-      "name": "\\'Muso oa Lesotho",
+      "name": "Lesotho",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -17515,7 +17595,7 @@
       ]
     },
     "LT": {
-      "name": "Lietuva",
+      "name": "Lithuania",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -17813,7 +17893,7 @@
       ]
     },
     "LV": {
-      "name": "Latvija",
+      "name": "Latvia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -17986,7 +18066,7 @@
       ]
     },
     "LY": {
-      "name": "دولة ليبيا",
+      "name": "Libya",
       "bank_holidays": [
         {
           "date": "2023-02-17",
@@ -18111,7 +18191,7 @@
       ]
     },
     "MA": {
-      "name": "المملكة المغربية",
+      "name": "Morocco",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -18425,7 +18505,7 @@
       ]
     },
     "MD": {
-      "name": "Republica Moldova",
+      "name": "Moldova",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -18562,7 +18642,7 @@
       ]
     },
     "ME": {
-      "name": "Crna Gora",
+      "name": "Montenegro",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -18863,7 +18943,7 @@
       ]
     },
     "MF": {
-      "name": "Saint Martin",
+      "name": "St. Martin",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -19012,7 +19092,7 @@
       ]
     },
     "MG": {
-      "name": "Repoblikan'i Madagasikara",
+      "name": "Madagascar",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -19197,7 +19277,7 @@
       ]
     },
     "MK": {
-      "name": "Република Македонија",
+      "name": "North Macedonia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -19366,7 +19446,7 @@
       ]
     },
     "ML": {
-      "name": "République du Mali",
+      "name": "Mali",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -19676,7 +19756,7 @@
       ]
     },
     "MR": {
-      "name": "الجمهورية الإسلامية الموريتانية",
+      "name": "Mauritania",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -20272,7 +20352,7 @@
       ]
     },
     "MX": {
-      "name": "México",
+      "name": "Mexico",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -20646,7 +20726,7 @@
       ]
     },
     "MZ": {
-      "name": "Moçambique",
+      "name": "Mozambique",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -20940,7 +21020,7 @@
       ]
     },
     "NC": {
-      "name": "Nouvelle-Calédonie",
+      "name": "New Caledonia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -21089,7 +21169,7 @@
       ]
     },
     "NE": {
-      "name": "République du Niger",
+      "name": "Niger",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -21548,7 +21628,7 @@
       ]
     },
     "NL": {
-      "name": "Nederland",
+      "name": "Netherlands",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -21685,7 +21765,7 @@
       ]
     },
     "NO": {
-      "name": "Norge",
+      "name": "Norway",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -21999,7 +22079,7 @@
       ]
     },
     "PA": {
-      "name": "Panamá",
+      "name": "Panama",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -22144,7 +22224,7 @@
       ]
     },
     "PE": {
-      "name": "Perú",
+      "name": "Peru",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -22466,7 +22546,7 @@
       ]
     },
     "PL": {
-      "name": "Polska",
+      "name": "Poland",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -23673,7 +23753,7 @@
       ]
     },
     "RS": {
-      "name": "Република Србија",
+      "name": "Serbia",
       "bank_holidays": [
         {
           "date": "2023-01-02",
@@ -24156,7 +24236,7 @@
       ]
     },
     "SD": {
-      "name": "جمهورية السودان",
+      "name": "Sudan",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -24269,7 +24349,7 @@
       ]
     },
     "SE": {
-      "name": "Sverige",
+      "name": "Sweden",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -24752,7 +24832,7 @@
       ]
     },
     "SI": {
-      "name": "Republika Slovenija",
+      "name": "Slovenia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -25134,7 +25214,7 @@
       ]
     },
     "SK": {
-      "name": "Slovenská republika",
+      "name": "Slovakia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -25701,7 +25781,7 @@
       ]
     },
     "SN": {
-      "name": "République du Sénégal",
+      "name": "Senegal",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -25882,7 +25962,7 @@
       ]
     },
     "SO": {
-      "name": "Jamhuuriyadda Federaalka Soomaaliya",
+      "name": "Somalia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -27046,7 +27126,7 @@
       ]
     },
     "TD": {
-      "name": "جمهورية تشاد",
+      "name": "Chad",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -27195,7 +27275,7 @@
       ]
     },
     "TG": {
-      "name": "République togolaise",
+      "name": "Togo",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -27368,7 +27448,7 @@
       ]
     },
     "TN": {
-      "name": "الجمهورية التونسية",
+      "name": "Tunisia",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -27517,7 +27597,7 @@
       ]
     },
     "TO": {
-      "name": "Puleʻanga Fakatuʻi ʻo Tonga",
+      "name": "Tonga",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -27666,7 +27746,7 @@
       ]
     },
     "TR": {
-      "name": "Türkiye",
+      "name": "Turkey",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -27976,7 +28056,7 @@
       ]
     },
     "TW": {
-      "name": "中華民國",
+      "name": "Taiwan",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -28338,7 +28418,7 @@
       ]
     },
     "UA": {
-      "name": "Україна",
+      "name": "Ukraine",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -28728,7 +28808,7 @@
       ]
     },
     "US": {
-      "name": "United States of America",
+      "name": "United States",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -28962,7 +29042,7 @@
       ]
     },
     "VA": {
-      "name": "Stato della Città del Vaticano",
+      "name": "Vatican City",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -29891,7 +29971,7 @@
       ]
     },
     "VN": {
-      "name": "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+      "name": "Vietnam",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -29980,7 +30060,7 @@
       ]
     },
     "VU": {
-      "name": "République de Vanuatu",
+      "name": "Vanuatu",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -30189,7 +30269,7 @@
       ]
     },
     "XK": {
-      "name": "Republika e Kosovës",
+      "name": "Kosovo",
       "bank_holidays": [
         {
           "date": "2023-01-01",
@@ -30945,6 +31025,547 @@
           "date": "2015-05-04"
         }
       ]
+    },
+    "AF": {
+      "name": "Afghanistan",
+      "bank_holidays": []
+    },
+    "BT": {
+      "name": "Bhutan",
+      "bank_holidays": []
+    },
+    "BV": {
+      "name": "Bouvet Island",
+      "bank_holidays": []
+    },
+    "BY": {
+      "name": "Belarus",
+      "bank_holidays": []
+    },
+    "FK": {
+      "name": "Falkland Islands",
+      "bank_holidays": []
+    },
+    "FM": {
+      "name": "Micronesia",
+      "bank_holidays": []
+    },
+    "GS": {
+      "name": "South Georgia & South Sandwich Islands",
+      "bank_holidays": []
+    },
+    "HM": {
+      "name": "Heard & McDonald Islands",
+      "bank_holidays": []
+    },
+    "IN": {
+      "name": "India",
+      "bank_holidays": [
+        {
+          "date": "2025-01-01",
+          "name": "New Year's Day"
+        },
+        {
+          "date": "2023-01-26",
+          "name": "Republic Day"
+        },
+        {
+          "date": "2023-03-08",
+          "name": "Holi"
+        },
+        {
+          "date": "2023-03-30",
+          "name": "Ram Navami"
+        },
+        {
+          "date": "2023-04-04",
+          "name": "Mahavir Jayanti"
+        },
+        {
+          "date": "2023-04-07",
+          "name": "Good Friday"
+        },
+        {
+          "date": "2023-04-14",
+          "name": "Dr. Ambedkar Jayanti"
+        },
+        {
+          "date": "2023-04-22",
+          "name": "Eid-ul-Fitr"
+        },
+        {
+          "date": "2023-05-05",
+          "name": "Buddha Purnima"
+        },
+        {
+          "date": "2023-06-29",
+          "name": "Bakrid / Eid al-Adha"
+        },
+        {
+          "date": "2023-07-29",
+          "name": "Muharram"
+        },
+        {
+          "date": "2023-08-15",
+          "name": "Independence Day"
+        },
+        {
+          "date": "2023-09-07",
+          "name": "Janmashtami"
+        },
+        {
+          "date": "2023-09-19",
+          "name": "Ganesh Chaturthi"
+        },
+        {
+          "date": "2023-09-28",
+          "name": "Eid-e-Milad"
+        },
+        {
+          "date": "2023-10-02",
+          "name": "Gandhi Jayanti"
+        },
+        {
+          "date": "2023-10-24",
+          "name": "Dussehra"
+        },
+        {
+          "date": "2023-11-12",
+          "name": "Diwali"
+        },
+        {
+          "date": "2023-11-27",
+          "name": "Guru Nanak Jayanti"
+        },
+        {
+          "date": "2023-12-25",
+          "name": "Christmas Day"
+        },
+        {
+          "date": "2024-01-26",
+          "name": "Republic Day"
+        },
+        {
+          "date": "2024-03-08",
+          "name": "Maha Shivratri"
+        },
+        {
+          "date": "2024-03-25",
+          "name": "Holi"
+        },
+        {
+          "date": "2024-03-29",
+          "name": "Good Friday"
+        },
+        {
+          "date": "2024-04-11",
+          "name": "Eid-ul-Fitr"
+        },
+        {
+          "date": "2024-04-14",
+          "name": "Dr. Ambedkar Jayanti"
+        },
+        {
+          "date": "2024-04-17",
+          "name": "Ram Navami"
+        },
+        {
+          "date": "2024-04-21",
+          "name": "Mahavir Jayanti"
+        },
+        {
+          "date": "2024-05-23",
+          "name": "Buddha Purnima"
+        },
+        {
+          "date": "2024-06-17",
+          "name": "Bakrid / Eid al-Adha"
+        },
+        {
+          "date": "2024-07-17",
+          "name": "Muharram"
+        },
+        {
+          "date": "2024-08-15",
+          "name": "Independence Day"
+        },
+        {
+          "date": "2024-08-26",
+          "name": "Janmashtami"
+        },
+        {
+          "date": "2024-09-07",
+          "name": "Ganesh Chaturthi"
+        },
+        {
+          "date": "2024-09-16",
+          "name": "Eid-e-Milad"
+        },
+        {
+          "date": "2024-10-02",
+          "name": "Gandhi Jayanti"
+        },
+        {
+          "date": "2024-10-12",
+          "name": "Dussehra"
+        },
+        {
+          "date": "2024-10-31",
+          "name": "Diwali"
+        },
+        {
+          "date": "2024-11-15",
+          "name": "Guru Nanak Jayanti"
+        },
+        {
+          "date": "2024-12-25",
+          "name": "Christmas Day"
+        },
+        {
+          "date": "2025-01-26",
+          "name": "Republic Day"
+        },
+        {
+          "date": "2025-02-26",
+          "name": "Maha Shivratri"
+        },
+        {
+          "date": "2025-03-14",
+          "name": "Holi"
+        },
+        {
+          "date": "2025-03-31",
+          "name": "Eid-ul-Fitr"
+        },
+        {
+          "date": "2025-04-06",
+          "name": "Ram Navami"
+        },
+        {
+          "date": "2025-04-10",
+          "name": "Mahavir Jayanti"
+        },
+        {
+          "date": "2025-04-14",
+          "name": "Dr. Ambedkar Jayanti"
+        },
+        {
+          "date": "2025-04-18",
+          "name": "Good Friday"
+        },
+        {
+          "date": "2025-05-12",
+          "name": "Buddha Purnima"
+        },
+        {
+          "date": "2025-06-07",
+          "name": "Bakrid / Eid al-Adha"
+        },
+        {
+          "date": "2025-07-06",
+          "name": "Muharram"
+        },
+        {
+          "date": "2025-08-15",
+          "name": "Independence Day"
+        },
+        {
+          "date": "2025-08-16",
+          "name": "Janmashtami"
+        },
+        {
+          "date": "2025-08-27",
+          "name": "Ganesh Chaturthi"
+        },
+        {
+          "date": "2025-09-05",
+          "name": "Eid-e-Milad"
+        },
+        {
+          "date": "2025-10-02",
+          "name": "Gandhi Jayanti"
+        },
+        {
+          "date": "2025-10-02",
+          "name": "Dussehra"
+        },
+        {
+          "date": "2025-10-21",
+          "name": "Diwali"
+        },
+        {
+          "date": "2025-11-05",
+          "name": "Guru Nanak Jayanti"
+        },
+        {
+          "date": "2025-12-25",
+          "name": "Christmas Day"
+        },
+        {
+          "date": "2026-01-01",
+          "name": "New Year's Day"
+        },
+        {
+          "date": "2026-01-26",
+          "name": "Republic Day"
+        },
+        {
+          "date": "2026-03-04",
+          "name": "Holi"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "Eid al-Fitr"
+        },
+        {
+          "date": "2026-03-26",
+          "name": "Ram Navami"
+        },
+        {
+          "date": "2026-03-31",
+          "name": "Mahavir Jayanti"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Labour Day / Buddha Purnima"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Id-ul-Zuha (Bakrid)"
+        },
+        {
+          "date": "2026-06-26",
+          "name": "Muharram"
+        },
+        {
+          "date": "2026-08-15",
+          "name": "Independence Day"
+        },
+        {
+          "date": "2026-08-26",
+          "name": "Janmashtami / Eid-e-Milad"
+        },
+        {
+          "date": "2026-09-04",
+          "name": "Janmashtami"
+        },
+        {
+          "date": "2026-10-02",
+          "name": "Gandhi Jayanti"
+        },
+        {
+          "date": "2026-10-20",
+          "name": "Dussehra"
+        },
+        {
+          "date": "2026-11-08",
+          "name": "Diwali"
+        },
+        {
+          "date": "2026-11-24",
+          "name": "Guru Nanak's Birthday"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day"
+        }
+      ]
+    },
+    "IO": {
+      "name": "British Indian Ocean Territory",
+      "bank_holidays": []
+    },
+    "IQ": {
+      "name": "Iraq",
+      "bank_holidays": []
+    },
+    "IR": {
+      "name": "Iran",
+      "bank_holidays": []
+    },
+    "JO": {
+      "name": "Jordan",
+      "bank_holidays": []
+    },
+    "KG": {
+      "name": "Kyrgyzstan",
+      "bank_holidays": []
+    },
+    "KH": {
+      "name": "Cambodia",
+      "bank_holidays": []
+    },
+    "KI": {
+      "name": "Kiribati",
+      "bank_holidays": []
+    },
+    "KP": {
+      "name": "North Korea",
+      "bank_holidays": []
+    },
+    "KW": {
+      "name": "Kuwait",
+      "bank_holidays": []
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "bank_holidays": []
+    },
+    "LA": {
+      "name": "Laos",
+      "bank_holidays": []
+    },
+    "LB": {
+      "name": "Lebanon",
+      "bank_holidays": []
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "bank_holidays": []
+    },
+    "MH": {
+      "name": "Marshall Islands",
+      "bank_holidays": []
+    },
+    "MM": {
+      "name": "Myanmar (Burma)",
+      "bank_holidays": []
+    },
+    "MN": {
+      "name": "Mongolia",
+      "bank_holidays": []
+    },
+    "MO": {
+      "name": "Macao SAR China",
+      "bank_holidays": []
+    },
+    "MP": {
+      "name": "Northern Mariana Islands",
+      "bank_holidays": []
+    },
+    "MU": {
+      "name": "Mauritius",
+      "bank_holidays": []
+    },
+    "MV": {
+      "name": "Maldives",
+      "bank_holidays": []
+    },
+    "NF": {
+      "name": "Norfolk Island",
+      "bank_holidays": []
+    },
+    "NP": {
+      "name": "Nepal",
+      "bank_holidays": []
+    },
+    "NR": {
+      "name": "Nauru",
+      "bank_holidays": []
+    },
+    "NU": {
+      "name": "Niue",
+      "bank_holidays": []
+    },
+    "OM": {
+      "name": "Oman",
+      "bank_holidays": []
+    },
+    "PF": {
+      "name": "French Polynesia",
+      "bank_holidays": []
+    },
+    "PG": {
+      "name": "Papua New Guinea",
+      "bank_holidays": []
+    },
+    "PK": {
+      "name": "Pakistan",
+      "bank_holidays": []
+    },
+    "PN": {
+      "name": "Pitcairn Islands",
+      "bank_holidays": []
+    },
+    "PS": {
+      "name": "Palestinian Territories",
+      "bank_holidays": []
+    },
+    "PW": {
+      "name": "Palau",
+      "bank_holidays": []
+    },
+    "QA": {
+      "name": "Qatar",
+      "bank_holidays": []
+    },
+    "RU": {
+      "name": "Russia",
+      "bank_holidays": []
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "bank_holidays": []
+    },
+    "SB": {
+      "name": "Solomon Islands",
+      "bank_holidays": []
+    },
+    "SY": {
+      "name": "Syria",
+      "bank_holidays": []
+    },
+    "TF": {
+      "name": "French Southern Territories",
+      "bank_holidays": []
+    },
+    "TH": {
+      "name": "Thailand",
+      "bank_holidays": []
+    },
+    "TJ": {
+      "name": "Tajikistan",
+      "bank_holidays": []
+    },
+    "TK": {
+      "name": "Tokelau",
+      "bank_holidays": []
+    },
+    "TL": {
+      "name": "Timor-Leste",
+      "bank_holidays": []
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "bank_holidays": []
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "bank_holidays": []
+    },
+    "UM": {
+      "name": "U.S. Outlying Islands",
+      "bank_holidays": []
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "bank_holidays": []
+    },
+    "WF": {
+      "name": "Wallis & Futuna",
+      "bank_holidays": []
+    },
+    "WS": {
+      "name": "Samoa",
+      "bank_holidays": []
+    },
+    "YE": {
+      "name": "Yemen",
+      "bank_holidays": []
     }
   }
 }
