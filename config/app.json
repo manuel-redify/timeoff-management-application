@@ -1,13 +1,13 @@
 {
-  "allow_create_new_accounts" : true,
-  "send_emails"              : false,
-  "application_sender_email" : "email@test.com",
-  "email_transporter" : {
-    "host" : "localhost",
-    "port" : 25,
-    "auth" : {
-      "user" : "user",
-      "pass" : "pass"
+  "allow_create_new_accounts": true,
+  "send_emails": true,
+  "application_sender_email": "mailguntest@sandbox400f429055f14aedab346afaf3cc616b.mailgun.org",
+  "email_transporter": {
+    "host": "smtp.mailgun.org",
+    "port": 587,
+    "auth": {
+      "user": "mailguntest@sandbox400f429055f14aedab346afaf3cc616b.mailgun.org",
+      "pass": "9f6f64565fb1252493783821a228b87b-96164d60-52a18e57"
     }
   },
   "sessionStore": {
@@ -17,10 +17,10 @@
       "port": 6379
     }
   },
-  "ga_analytics_on" : false,
-  "crypto_secret" : "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_",
-  "application_domain" : "http://app.timeoff.management",
-  "promotion_website_domain" : "http://timeoff.management",
+  "ga_analytics_on": false,
+  "crypto_secret": "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_",
+  "application_domain": "http://app.timeoff.management",
+  "promotion_website_domain": "http://timeoff.management",
   "locale_code_for_sorting": "en",
   "force_to_explicitly_select_type_when_requesting_new_leave": false
 }
