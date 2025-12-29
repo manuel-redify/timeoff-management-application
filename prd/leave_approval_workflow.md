@@ -6,7 +6,7 @@
 
 ## 1. Purpose
 
-This document describes the requirements for implementing a **flexible, role-based leave approval workflow** within an existing web application. The PRD is intended to be provided to a **Large Language Model (LLM)** or engineering team to design and implement the feature with minimal ambiguity.
+This document describes the requirements for implementing a **flexible, role-based leave approval workflow** within the existing web application. The PRD is intended to design and implement the feature with minimal ambiguity.
 
 The goal is to replace the current **department-based approval logic** with a **configurable, scalable, and future-proof system** that reflects the organization’s real structure.
 
@@ -162,16 +162,6 @@ An **Approval Rule** defines:
 - Who is requesting
 - Who must approve
 - In which project context
-- In which order (if any)
-
----
-
-Approval logic must be **data-driven**, not hard-coded.
-
-An **Approval Rule** defines:
-- Who is requesting
-- Who must approve
-- In which context
 - In which order (if any)
 
 ---
