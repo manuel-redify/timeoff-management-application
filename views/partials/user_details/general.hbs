@@ -52,6 +52,71 @@
       </label>
     </div>
 
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="contract_type_inp" class="control-label">Contract Type</label>
+          <select class="form-control" id="contract_type_inp" name="contract_type">
+            <option value="Employee" {{#if_equal employee.contract_type 'Employee' }} selected="selected" {{/if_equal}}>
+              Employee</option>
+            <option value="Contractor" {{#if_equal employee.contract_type 'Contractor' }} selected="selected"
+              {{/if_equal}}>Contractor</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="area_inp" class="control-label">Area</label>
+          <select class="form-control" id="area_inp" name="area">
+            <option value="">None</option>
+            {{#each areas}}
+            <option value="{{this.id}}" {{#if_contains ../userAreas this.id}} selected="selected" {{/if_contains}}>
+              {{this.name}}</option>
+            {{/each}}
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="role_inp" class="control-label">Role</label>
+      <select class="form-control" id="role_inp" name="role">
+        <option value="">None</option>
+        {{#each roles}}
+        <option value="{{this.id}}" {{#if_contains ../userRoles this.id}} selected="selected" {{/if_contains}}>
+          {{this.name}}</option>
+        {{/each}}
+      </select>
+      <span class="help-block">Select a role. This role determines approval rules.</span>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="team_inp" class="control-label">Team</label>
+          <select class="form-control" id="team_inp" name="team">
+            <option value="">None</option>
+            {{#each teams}}
+            <option value="{{this.id}}" {{#if_contains ../userTeams this.id}} selected="selected" {{/if_contains}}>
+              {{this.name}}</option>
+            {{/each}}
+          </select>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="project_inp" class="control-label">Project</label>
+          <select class="form-control" id="project_inp" name="project">
+            <option value="">None</option>
+            {{#each projects}}
+            <option value="{{this.id}}" {{#if_contains ../userProjects this.id}} selected="selected" {{/if_contains}}>
+              {{this.name}}</option>
+            {{/each}}
+          </select>
+        </div>
+      </div>
+    </div>
+
     <div class="form-group">
       <label for="auto_approve_inp" class="control-label">
         <input class="" id="auto_approve_inp" name="auto_approve" type="checkbox" {{# if employee.auto_approve}}

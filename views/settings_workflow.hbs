@@ -1,0 +1,209 @@
+{{> header }}
+
+<h1>Workflow Settings</h1>
+
+<p class="lead">Configure roles, areas, teams, and projects for flexible leave approvals.</p>
+
+{{> show_flash_messages }}
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="list-group">
+            <a href="/settings/workflow/" class="list-group-item active">General Org Entities</a>
+            <a href="/settings/workflow/rules/" class="list-group-item">Approval Rules</a>
+            <a href="/settings/workflow/watchers/" class="list-group-item">Watcher Rules</a>
+        </div>
+    </div>
+
+    <div class="col-md-9">
+
+        <!-- Roles SECTION -->
+        <div class="panel panel-default">
+            <div class="panel-heading">Roles</div>
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Priority Weight</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each roles}}
+                        <tr>
+                            <form method="POST" action="/settings/workflow/roles/update/">
+                                <input type="hidden" name="id" value="{{this.id}}">
+                                <td><input type="text" name="name" class="form-control input-sm" value="{{this.name}}"
+                                        required></td>
+                                <td><input type="number" name="priority_weight" class="form-control input-sm"
+                                        value="{{this.priority_weight}}"></td>
+                                <td class="text-right">
+                                    <button type="submit" class="btn btn-xs btn-success" title="Update Role"><i
+                                            class="fa fa-save"></i> Update</button>
+                            </form>
+                            <form method="POST" action="/settings/workflow/roles/delete/" style="display:inline"
+                                onsubmit="return confirm('Delete role {{this.name}}?');">
+                                <input type="hidden" name="id" value="{{this.id}}">
+                                <button type="submit" class="btn btn-xs btn-danger" title="Delete Role"><i
+                                        class="fa fa-trash"></i></button>
+                            </form>
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+
+                <form method="POST" action="/settings/workflow/roles/add/" class="form-inline">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Role Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" name="priority_weight" class="form-control"
+                            placeholder="Priority (e.g. 100)" value="0">
+                    </div>
+                    <button type="submit" class="btn btn-success">Add Role</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Areas SECTION -->
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Areas</div>
+                    <div class="panel-body">
+                        <div class="list-group">
+                            {{#each areas}}
+                            <div class="list-group-item">
+                                <form method="POST" action="/settings/workflow/areas/update/" class="form-inline"
+                                    style="display:inline">
+                                    <input type="hidden" name="id" value="{{this.id}}">
+                                    <input type="text" name="name" class="form-control input-sm" value="{{this.name}}"
+                                        required style="width: 70%">
+                                    <button type="submit" class="btn btn-xs btn-success"><i
+                                            class="fa fa-save"></i></button>
+                                </form>
+                                <form method="POST" action="/settings/workflow/areas/delete/"
+                                    style="display:inline; float:right"
+                                    onsubmit="return confirm('Delete area {{this.name}}?');">
+                                    <input type="hidden" name="id" value="{{this.id}}">
+                                    <button type="submit" class="btn btn-xs btn-danger"><i
+                                            class="fa fa-trash"></i></button>
+                                </form>
+                                <div style="clear:both"></div>
+                            </div>
+                            {{/each}}
+                        </div>
+                        <form method="POST" action="/settings/workflow/areas/add/">
+                            <div class="input-group">
+                                <input type="text" name="name" class="form-control" placeholder="New Area" required>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-success" type="submit">Add</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Teams SECTION -->
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Teams</div>
+                    <div class="panel-body">
+                        <div class="list-group">
+                            {{#each teams}}
+                            <div class="list-group-item">
+                                <form method="POST" action="/settings/workflow/teams/update/" class="form-inline"
+                                    style="display:inline">
+                                    <input type="hidden" name="id" value="{{this.id}}">
+                                    <input type="text" name="name" class="form-control input-sm" value="{{this.name}}"
+                                        required style="width: 70%">
+                                    <button type="submit" class="btn btn-xs btn-success"><i
+                                            class="fa fa-save"></i></button>
+                                </form>
+                                <form method="POST" action="/settings/workflow/teams/delete/"
+                                    style="display:inline; float:right"
+                                    onsubmit="return confirm('Delete team {{this.name}}?');">
+                                    <input type="hidden" name="id" value="{{this.id}}">
+                                    <button type="submit" class="btn btn-xs btn-danger"><i
+                                            class="fa fa-trash"></i></button>
+                                </form>
+                                <div style="clear:both"></div>
+                            </div>
+                            {{/each}}
+                        </div>
+                        <form method="POST" action="/settings/workflow/teams/add/">
+                            <div class="input-group">
+                                <input type="text" name="name" class="form-control" placeholder="New Team" required>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-success" type="submit">Add</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects SECTION -->
+        <div class="panel panel-default">
+            <div class="panel-heading">Projects</div>
+            <div class="panel-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each projects}}
+                        <tr>
+                            <form method="POST" action="/settings/workflow/projects/update/">
+                                <input type="hidden" name="id" value="{{this.id}}">
+                                <td><input type="text" name="name" class="form-control input-sm" value="{{this.name}}"
+                                        required></td>
+                                <td>
+                                    <select name="type" class="form-control input-sm">
+                                        <option value="Project" {{#if_equal this.type 'Project' }}selected{{/if_equal}}>
+                                            Project</option>
+                                        <option value="Staff Augmentation" {{#if_equal this.type 'Staff Augmentation'
+                                            }}selected{{/if_equal}}>Staff Augmentation</option>
+                                    </select>
+                                </td>
+                                <td class="text-right">
+                                    <button type="submit" class="btn btn-xs btn-success"><i class="fa fa-save"></i>
+                                        Update</button>
+                            </form>
+                            <form method="POST" action="/settings/workflow/projects/delete/" style="display:inline"
+                                onsubmit="return confirm('Delete project {{this.name}}?');">
+                                <input type="hidden" name="id" value="{{this.id}}">
+                                <button type="submit" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></button>
+                            </form>
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+                <form method="POST" action="/settings/workflow/projects/add/" class="form-inline">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Project Name" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="type" class="form-control">
+                            <option value="Project">Project</option>
+                            <option value="Staff Augmentation">Staff Augmentation</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-success">Add Project</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{> footer }}

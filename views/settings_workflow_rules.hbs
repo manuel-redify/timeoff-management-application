@@ -1,0 +1,140 @@
+{{> header }}
+
+<h1>Approval Rules</h1>
+
+<p class="lead">Define who must approve leave requests based on the requester's role and project context.</p>
+
+{{> show_flash_messages }}
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="list-group">
+            <a href="/settings/workflow/" class="list-group-item">General Org Entities</a>
+            <a href="/settings/workflow/rules/" class="list-group-item active">Approval Rules</a>
+            <a href="/settings/workflow/watchers/" class="list-group-item">Watcher Rules</a>
+        </div>
+    </div>
+
+    <div class="col-md-9">
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Active Rules</div>
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>If Role is...</th>
+                            <th>on project type...</th>
+                            <th>approver must be...</th>
+                            <th>constraints</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each grouped_rules}}
+                        <tr>
+                            <td>
+                                <strong>{{this.subject_role.name}}</strong>
+                                {{#if this.subject_area}}<br><small class="text-muted">Area:
+                                    {{this.subject_area.name}}</small>{{/if}}
+                            </td>
+                            <td>{{this.project_type}}</td>
+                            <td>
+                                <ul class="list-unstyled">
+                                    {{#each this.approvals}}
+                                    <li>
+                                        <span class="badge">{{this.sequence_order}}</span>
+                                        {{this.approver_role.name}}
+                                        {{#if this.approver_area_constraint}}<small
+                                            class="text-info">({{this.approver_area_constraint}})</small>{{/if}}
+                                        {{#if this.team_scope_required}}<small
+                                            class="text-warning">[Team]</small>{{/if}}
+                                        <form method="POST" action="/settings/workflow/rules/delete/"
+                                            style="display:inline">
+                                            <input type="hidden" name="id" value="{{this.id}}">
+                                            <button type="submit" class="btn btn-link btn-xs text-danger"
+                                                title="Remove"><i class="fa fa-remove"></i></button>
+                                        </form>
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-default btn-xs">Add Approver</a>
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">Create New Rule</div>
+            <div class="panel-body">
+                <form method="POST" action="/settings/workflow/rules/add/">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>Requester Role</label>
+                            <select name="subject_role_id" class="form-control">
+                                {{#each roles}}
+                                <option value="{{this.id}}">{{this.name}}</option>
+                                {{/each}}
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Project Type</label>
+                            <select name="project_type" class="form-control">
+                                <option value="Project">Project</option>
+                                <option value="Staff Augmentation">Staff Augmentation</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Subject Area (Optional)</label>
+                            <select name="subject_area_id" class="form-control">
+                                <option value="">None</option>
+                                {{#each areas}}
+                                <option value="{{this.id}}">{{this.name}}</option>
+                                {{/each}}
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label>Approver Role</label>
+                            <select name="approver_role_id" class="form-control">
+                                {{#each roles}}
+                                <option value="{{this.id}}">{{this.name}}</option>
+                                {{/each}}
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Area Constraint</label>
+                            <select name="approver_area_constraint" class="form-control">
+                                <option value="">None</option>
+                                <option value="SAME_AS_SUBJECT">Same as Requester</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Order</label>
+                            <input type="number" name="sequence_order" class="form-control" value="1">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="team_scope_required"> Approver must be in the same Team/Project
+                            membership
+                        </label>
+                    </div>
+                    <hr>
+                    <button type="submit" class="btn btn-primary">Save Rule</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{> footer }}

@@ -88,6 +88,65 @@
       </div>
 
       <div class="form-group">
+        <label for="contract_type_inp" class="col-md-3 control-label">Contract Type</label>
+        <div class="col-md-3">
+          <select class="form-control" id="contract_type_inp" name="contract_type">
+            <option value="Employee">Employee</option>
+            <option value="Contractor">Contractor</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="area_inp" class="col-md-3 control-label">Area</label>
+        <div class="col-md-3">
+          <select class="form-control" id="area_inp" name="area">
+            <option value="">None</option>
+            {{#each areas}}
+            <option value="{{this.id}}">{{this.name}}</option>
+            {{/each}}
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="role_inp" class="col-md-3 control-label">Role</label>
+        <div class="col-md-3">
+          <select class="form-control" id="role_inp" name="role">
+            <option value="">None</option>
+            {{#each roles}}
+            <option value="{{this.id}}">{{this.name}}</option>
+            {{/each}}
+          </select>
+        </div>
+        <span class="help-block col-md-6">This role determines approval rules.</span>
+      </div>
+
+      <div class="form-group">
+        <label for="team_inp" class="col-md-3 control-label">Team</label>
+        <div class="col-md-3">
+          <select class="form-control" id="team_inp" name="team">
+            <option value="">None</option>
+            {{#each teams}}
+            <option value="{{this.id}}">{{this.name}}</option>
+            {{/each}}
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="project_inp" class="col-md-3 control-label">Project</label>
+        <div class="col-md-3">
+          <select class="form-control" id="project_inp" name="project">
+            <option value="">None</option>
+            {{#each projects}}
+            <option value="{{this.id}}">{{this.name}}</option>
+            {{/each}}
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
         <div class="col-md-3 col-md-offset-3">
           <label for="auto_approve_inp" class="control-label">
             <input class="" id="auto_approve_inp" name="auto_approve" type="checkbox">
