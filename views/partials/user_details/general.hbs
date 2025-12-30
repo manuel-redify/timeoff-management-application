@@ -106,7 +106,7 @@
       <div class="col-md-6">
         <div class="form-group">
           <label for="project_inp" class="control-label">Project</label>
-          <select class="form-control" id="project_inp" name="project">
+          <select class="form-control" id="project_inp" name="project" multiple="multiple">
             <option value="">None</option>
             {{#each projects}}
             <option value="{{this.id}}" {{#if_contains ../userProjects this.id}} selected="selected" {{/if_contains}}>

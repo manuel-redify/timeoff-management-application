@@ -46,9 +46,10 @@
   "devDependencies": {
     "chai": "^2.2.0",
     "mocha": "^6.2.2",
-    "sass": "^1.77.0",
     "request-promise": "^4.2.2",
-    "selenium-webdriver": "2.53.3"
+    "sass": "^1.77.0",
+    "selenium-webdriver": "2.53.3",
+    "sinon": "^21.0.1"
   },
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha --recursive t",

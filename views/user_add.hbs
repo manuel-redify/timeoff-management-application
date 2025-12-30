@@ -137,7 +137,7 @@
       <div class="form-group">
         <label for="project_inp" class="col-md-3 control-label">Project</label>
         <div class="col-md-3">
-          <select class="form-control" id="project_inp" name="project">
+          <select class="form-control" id="project_inp" name="project" multiple="multiple">
             <option value="">None</option>
             {{#each projects}}
             <option value="{{this.id}}">{{this.name}}</option>
