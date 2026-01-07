@@ -110,16 +110,17 @@
       </div>
 
       <div class="form-group">
-        <label for="role_inp" class="col-md-3 control-label">Role</label>
+        <label for="role_inp" class="col-md-3 control-label">Global Role</label>
         <div class="col-md-3">
-          <select class="form-control" id="role_inp" name="role">
+          <select class="form-control" id="role_inp" name="role" required>
             <option value="">None</option>
             {{#each roles}}
             <option value="{{this.id}}">{{this.name}}</option>
             {{/each}}
           </select>
         </div>
-        <span class="help-block col-md-6">This role determines approval rules.</span>
+        <span class="help-block col-md-6">This is the user's primary/global role. It determines default approval
+          rules.</span>
       </div>
 
       <div class="form-group">
@@ -135,14 +136,37 @@
       </div>
 
       <div class="form-group">
-        <label for="project_inp" class="col-md-3 control-label">Project</label>
-        <div class="col-md-3">
-          <select class="form-control" id="project_inp" name="project" multiple="multiple">
-            <option value="">None</option>
-            {{#each projects}}
-            <option value="{{this.id}}">{{this.name}}</option>
-            {{/each}}
-          </select>
+        <label class="col-md-3 control-label">Projects & Project Roles</label>
+        <div class="col-md-9">
+          <table class="table table-condensed">
+            <thead>
+              <tr>
+                <th>Assigned</th>
+                <th>Project Name</th>
+                <th>Project Role (Optional)</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each projects}}
+              <tr>
+                <td>
+                  <input type="checkbox" name="project" value="{{this.id}}">
+                </td>
+                <td>{{this.name}}</td>
+                <td>
+                  <select class="form-control input-sm" name="project_role_{{this.id}}">
+                    <option value="">Use Global Role</option>
+                    {{#each ../roles}}
+                    <option value="{{this.id}}">{{this.name}}</option>
+                    {{/each}}
+                  </select>
+                </td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+          <span class="help-block">If no Project Role is selected, the "Global Role" will be used for that project
+            context.</span>
         </div>
       </div>
 

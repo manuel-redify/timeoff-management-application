@@ -79,15 +79,15 @@
     </div>
 
     <div class="form-group">
-      <label for="role_inp" class="control-label">Role</label>
-      <select class="form-control" id="role_inp" name="role">
+      <label for="role_inp" class="control-label">Global Role</label>
+      <select class="form-control" id="role_inp" name="role" required>
         <option value="">None</option>
         {{#each roles}}
-        <option value="{{this.id}}" {{#if_contains ../userRoles this.id}} selected="selected" {{/if_contains}}>
+        <option value="{{this.id}}" {{#if_equal ../employee.DefaultRoleId this.id}} selected="selected" {{/if_equal}}>
           {{this.name}}</option>
         {{/each}}
       </select>
-      <span class="help-block">Select a role. This role determines approval rules.</span>
+      <span class="help-block">This is the user's primary/global role. It determines default approval rules.</span>
     </div>
 
     <div class="row">
@@ -103,16 +103,44 @@
           </select>
         </div>
       </div>
-      <div class="col-md-6">
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
         <div class="form-group">
-          <label for="project_inp" class="control-label">Project</label>
-          <select class="form-control" id="project_inp" name="project" multiple="multiple">
-            <option value="">None</option>
-            {{#each projects}}
-            <option value="{{this.id}}" {{#if_contains ../userProjects this.id}} selected="selected" {{/if_contains}}>
-              {{this.name}}</option>
-            {{/each}}
-          </select>
+          <label class="control-label">Projects & Project Roles</label>
+          <table class="table table-condensed">
+            <thead>
+              <tr>
+                <th>Assigned</th>
+                <th>Project Name</th>
+                <th>Project Role (Optional)</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each projects}}
+              <tr>
+                <td>
+                  <input type="checkbox" name="project" value="{{this.id}}" {{#if_contains ../userProjects this.id}}
+                    checked="checked" {{/if_contains}}>
+                </td>
+                <td>{{this.name}}</td>
+                <td>
+                  <select class="form-control input-sm" name="project_role_{{this.id}}">
+                    <option value="">Use Global Role</option>
+                    {{#each ../roles}}
+                    <option value="{{this.id}}" {{#each ../../userProjects}}{{#if_equal this.id ../../id}}{{#if_equal
+                      this.UserProject.role_id ../id}}selected="selected" {{/if_equal}}{{/if_equal}}{{/each}}>
+                      {{this.name}}</option>
+                    {{/each}}
+                  </select>
+                </td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+          <span class="help-block">If no Project Role is selected, the "Global Role" will be used for that project
+            context.</span>
         </div>
       </div>
     </div>
