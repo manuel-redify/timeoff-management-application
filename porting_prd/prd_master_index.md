@@ -1,7 +1,7 @@
 # TimeOff Management v2 - PRD Master Index
 
 **Project:** TimeOff Management Application Version 2  
-**Last Updated:** January 8, 2026  
+**Last Updated:** January 9, 2026  
 **Status:** In Development
 
 ---
@@ -385,18 +385,18 @@ This document serves as the master index for all Product Requirements Documents 
 | PRD # | Title | Status | Priority | Assigned | Target |
 |-------|-------|--------|----------|----------|--------|
 | 00 | Project Overview | ✅ Complete | Critical | PM | Done |
-| 01 | User Management | 📝 Draft | Critical | - | Week 1 |
-| 02 | Company Structure | 📋 Pending | Critical | - | Week 1 |
-| 03 | Leave Types | 📋 Pending | Critical | - | Week 2 |
-| 04 | Leave Workflow | 📋 Pending | Critical | - | Week 2-3 |
-| 05 | Calendar Views | 📋 Pending | High | - | Week 4 |
-| 06 | Allowance Mgmt | 📋 Pending | High | - | Week 3 |
+| 01 | User Management | ✅ Complete | Critical | - | Week 1 |
+| 02 | Company Structure | ✅ Complete | Critical | - | Week 1 |
+| 03 | Leave Types | ✅ Complete | Critical | - | Week 2 |
+| 04 | Leave Workflow | ✅ Complete | Critical | - | Week 2-3 |
+| 05 | Calendar Views | ✅ Complete | High | - | Week 4 |
+| 06 | Allowance Mgmt | ✅ Complete | High | - | Week 3 |
 | 07 | Approvals | 📋 Pending | High | - | Week 4 |
 | 08 | Notifications | 📋 Pending | High | - | Week 5 |
 | 09 | Reporting | 📋 Pending | Medium | - | Week 6 |
 | 10 | Admin Functions | 📋 Pending | Medium | - | Week 6 |
 | 11 | Mobile/Responsive | 📋 Pending | High | - | Week 7 |
-| 12 | Database Schema | 📋 Pending | Critical | - | Week 1 |
+| 12 | Database Schema | ✅ Complete | Critical | - | Week 1 |
 | 13 | API Specs | 📋 Pending | Critical | - | Week 2 |
 | 14 | Security | 📋 Pending | Critical | - | Week 2 |
 | 15 | Testing Strategy | 📋 Pending | High | - | Week 3 |
@@ -548,7 +548,7 @@ All PRDs are version-controlled with the following scheme:
 
 ---
 
-*Last Updated: January 8, 2026*  
+*Last Updated: January 9, 2026*  
 *Document Owner: Senior Product Manager*  
 *Next Review: January 15, 2026*
 
